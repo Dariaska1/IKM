@@ -5,10 +5,10 @@
 #include <vector>
 #include <string>
 
-// Вычисление факториала числа n (n!)
+// Г‚Г»Г·ГЁГ±Г«ГҐГ­ГЁГҐ ГґГ ГЄГІГ®Г°ГЁГ Г«Г  Г·ГЁГ±Г«Г  n (n!)
 unsigned long long factorial(unsigned int n);
 
-// Вычисление факториала от факториала (n!)!
+// Г‚Г»Г·ГЁГ±Г«ГҐГ­ГЁГҐ ГґГ ГЄГІГ®Г°ГЁГ Г«Г  Г®ГІ ГґГ ГЄГІГ®Г°ГЁГ Г«Г  (n!)!
 unsigned long long double_factorial(unsigned int n);
 
 #endif // FACTORIAL_H
