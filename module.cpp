@@ -1,19 +1,19 @@
 #include "Header.h"
 
-// Вычисление факториала числа n (n!)
-unsigned long long factorial(unsigned int n) {
-    unsigned long long result = 1;
+// Р’С‹С‡РёСЃР»РµРЅРёРµ С„Р°РєС‚РѕСЂРёР°Р»Р° С‡РёСЃР»Р° n (n!)
+long double factorial(unsigned int n) {
+    long double result = 1;
     for (unsigned int i = 2; i <= n; ++i) {
         result *= i;
     }
     return result;
 }
 
-// Вычисление (n!)!
-unsigned long long double_factorial(unsigned int n) {
-    unsigned long long fact = factorial(n);
-    unsigned long long result = 1;
-    for (unsigned long long i = 2; i <= fact; ++i) {
+// Р’С‹С‡РёСЃР»РµРЅРёРµ (n!)!
+long double double_factorial(unsigned int n) {
+    long double fact = factorial(n);
+    long double result = 1;
+    for (long double i = 2; i <= fact; ++i) {
         result *= i;
     }
     return result;
